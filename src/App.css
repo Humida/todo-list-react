@@ -64,3 +64,8 @@
 .addTodo-item>img{
   padding:10px;
 }
+
+.app-container{
+  height: 86%;
+  overflow-y: scroll;
+}
