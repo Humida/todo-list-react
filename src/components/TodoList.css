@@ -1,0 +1,23 @@
+.active {
+    text-decoration: line-through;
+}
+
+.todoItem {
+    cursor: pointer;
+    font-size: 18px;
+    padding:6px;
+    flex-grow: 1;
+    /* border-bottom: 1px solid #ddd; */
+}
+
+.todo-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+
+}
+
+.todo-item>img{
+    padding:0px 10px;
+}
